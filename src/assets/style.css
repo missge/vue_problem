@@ -1,0 +1,56 @@
+
+/* html{font-size:62.5%;}  */
+/* @media only screen and (min-width: 320px){
+  html {
+     font-size: 62.5% !important;
+  }
+ }
+@media only screen and (min-width: 640px){
+  html {
+    font-size: 125% !important;
+  }
+}
+@media only screen and (min-width: 750px){
+  html {
+    font-size: 150% !important;
+   }
+ }
+@media only screen and (min-width: 1242px){
+	html {
+		font-size: 187.5% !important;
+	}
+ } */
+
+*{margin: 0;padding: 0;list-style: none;font-size: 0.2rem}
+.hello{font-size: 0.2rem;width: 90%;margin:0 auto;}
+a{font-size: 0.2rem}
+li{font-size: 0.15rem;}
+h1{font-size: 0.22rem;}
+h2{    font-size: 0.2rem;/*换算成px是20px,px和rem直接除以100*/
+    height: 0.5rem;}
+h3{
+	font-size: 0.18rem; color: orange;
+}
+h4{
+	font-size: 0.16rem; color: brown;
+}
+.parentBox{border:1px solid orchid;}
+.Vuex{
+  border: 1px solid orangered;
+  margin-top:10px;
+}
+.illustrate{
+	text-align: left;
+	color:#74736D;
+	margin-bottom: 10px;
+
+}
+.illustrate>p{color: red}
+.illustrate {
+	li{
+		font-size:0.15rem
+	}
+}
+.blue_click{color:#007ACC;cursor: pointer;}
+
+
